@@ -1,0 +1,17 @@
+.sidebar {
+    background-color: white;
+    padding: 5px;
+    padding-bottom: 15px;
+    font-size: 10px;
+    box-sizing: border-box;
+    border: solid 1px black;
+    border-radius: 5px;
+    color: black;
+    width: 200px;
+}
+
+.sidebar.dark {
+    color: white;
+    background-color: black;
+    border: solid 1px white;
+}

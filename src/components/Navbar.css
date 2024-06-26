@@ -1,0 +1,29 @@
+.navbar {
+    background-color: azure;
+    padding: 15px;
+    display: flex;
+    padding-left: 10px;
+}
+
+.navbar.dark{
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+.navbar .navlink-container {
+    display: flex;
+}
+
+.navbar .theme-icon {
+    cursor: pointer;
+     margin-left: auto;
+}
+
+.navbar .button {
+    color: gray;
+    cursor: pointer;
+}
+
+.navbar .button.selected {
+    color: orange;
+}
